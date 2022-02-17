@@ -1,0 +1,12 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# deps
+.npmrc
+node_modules
+package-lock.json
+
+# debug
+*.log
+
+# prod
+dist
