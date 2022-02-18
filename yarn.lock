@@ -4002,10 +4002,10 @@ mobx-react@^7.2.1:
   dependencies:
     mobx-react-lite "^3.2.0"
 
-mobx@^6.3.13:
-  version "6.3.13"
-  resolved "https://registry.yarnpkg.com/mobx/-/mobx-6.3.13.tgz#93e56a57ee72369f850cf3d6398fd36ee8ef062e"
-  integrity sha512-zDDKDhYUk9QCHQUdLG+wb4Jv/nXutSLt/P8kkwHyjdbrJO4OZS6QTEsrOnrKM39puqXSrJZHdB6+yRys2NBFFA==
+mobx@^6.4.0:
+  version "6.4.0"
+  resolved "https://registry.yarnpkg.com/mobx/-/mobx-6.4.0.tgz#71beda560230527f75ad150638f061af9d9f5312"
+  integrity sha512-HluTl14lJjL1xeUfXekDstHT/RqdxtmgIQ+75eMXsy9zAwt5vOWMdrbYD/sLS3CAKTo7ctIZi6cI2aX47Fk05g==
 
 ms@2.0.0:
   version "2.0.0"
@@ -5366,6 +5366,11 @@ strip-json-comments@^3.1.0, strip-json-comments@^3.1.1:
   version "3.1.1"
   resolved "https://registry.yarnpkg.com/strip-json-comments/-/strip-json-comments-3.1.1.tgz#31f1281b3832630434831c310c01cccda8cbe006"
   integrity sha512-6fPc+R4ihwqP6N/aIv2f1gMH8lOVtWQHoqC4yK6oSDVVocumAsfCqjkXnqiYMhmMwS/mEHLp7Vehlt3ql6lEig==
+
+style-loader@^3.3.1:
+  version "3.3.1"
+  resolved "https://registry.yarnpkg.com/style-loader/-/style-loader-3.3.1.tgz#057dfa6b3d4d7c7064462830f9113ed417d38575"
+  integrity sha512-GPcQ+LDJbrcxHORTRes6Jy2sfvK2kS6hpSfI/fXhPt+spVzxF6LJ1dHLN9zIGmVaaP044YKaIatFaufENRiDoQ==
 
 supports-color@^5.3.0:
   version "5.5.0"

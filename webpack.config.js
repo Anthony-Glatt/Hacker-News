@@ -5,6 +5,28 @@ module.exports = {
     mode: 'development',
     devtool: 'inline-cheap-source-map',
     entry: path.resolve(__dirname, 'src/index.js'),
+    module: {
+        rules: [
+            {
+                test: /\.(scss|sass|css)$/,
+                use: [
+                  // Creates `style` nodes from JS strings
+                  'style-loader',
+                  // Translates CSS into CommonJS
+                  'css-loader',
+                  // Compiles Sass to CSS
+                  'sass-loader',
+                ],
+              },
+              {
+                test: /\.js$/,
+                exclude: /node_modules/,
+                use: {
+                  loader: 'babel-loader',
+                },
+              },
+        ],
+    },
     output: {
         path: path.resolve(__dirname, 'dist'),
         filename: "bundle.js",
