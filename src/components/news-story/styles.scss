@@ -1,0 +1,17 @@
+.story {
+  width: 50%;
+  margin: 20px auto;
+  border: solid 1px black;
+  border-radius: 10px;
+  background-color: rgb(206, 249, 229);
+  :hover {
+    cursor: pointer;
+    background-color: rgb(138, 247, 196);
+  }
+  ._content {
+    padding-left: 10px;
+    ._title {
+      font-weight: 600;
+    }
+  }
+}

@@ -1,0 +1,15 @@
+.navi {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+  background-color: #A4B4B6;
+	.navi__list {
+		display: flex;
+		width: 50%;
+		background-color: rgb(238, 238, 238);
+		justify-content: space-evenly;
+	}
+  .navi__item {
+		list-style-type: none,
+	}
+}

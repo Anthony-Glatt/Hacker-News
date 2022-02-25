@@ -3,7 +3,6 @@ import { PropTypes } from 'prop-types';
 import {
   NavLink,
 } from 'react-router-dom';
-
 import './styles.scss';
 
 export const Navi = ({ routes }) => (
@@ -12,7 +11,7 @@ export const Navi = ({ routes }) => (
       {routes.map((route) => {
         return (
           <li className="navi__item" key={route.label}>
-            <NavLink to={route.path} className="navi__link" exact activeClassName="is-active">
+            <NavLink to={route.path} className="navi__link" activeClassName="is-active">
               {route.label}
             </NavLink>
           </li>

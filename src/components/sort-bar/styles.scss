@@ -1,0 +1,10 @@
+.sort-bar {
+  margin: 10px auto;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  ._btn {
+    margin-right: 10px;
+    cursor: pointer;
+  }
+}
